@@ -60,24 +60,24 @@
             color: $white-color;
             text-align: center;
             .main {
-                font-size: $large-size;
+                font-size: 2.4rem;
                 text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
                 font-weight: 600;
             }
             .sub {
                 margin-top: 1rem;
-                font-size: $small-size;
+                font-size: $normal-size;
             }
             a {
                 display: inline-flex;
-                margin-top: 3rem;
-                padding: 5px 15px;
+                margin-top: 20px;
+                padding: 3px 15px;
                 border: 1px solid $white-color;
                 border-radius: 100px;
                 align-items: center;
                 font-size: $small-size;
                 span {
-                    margin-left: 1rem;
+                    margin-left: 5px;
                 }
             }
             .pagination {
